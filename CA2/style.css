@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: green; /* Set background color of the entire page to green */
+}
+
+#game-container {
+  width: 800px;
+  height: 500px;
+  background-color: white; /* Set background color of the playing area to white */
+  margin: auto; /* Center the playing area */
+  position: relative;
+}
+
+.snake-segment {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+}
+
+#food {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  position: absolute;
+}
